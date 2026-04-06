@@ -2,7 +2,7 @@
 
 A multi-agent AI system built on **Google Cloud** that helps users manage tasks, schedules, and information through natural language conversation.
 
-**Powered by Google Gemini 2.0 Flash via Vertex AI**
+**Powered by Google Gemini 2.5 pro via Vertex AI**
 ## Architecture
 
 
@@ -21,7 +21,7 @@ Calendar Tools Task Tools Notes Tools
 
 | Component | Technology |
 |-----------|-----------|
-| LLM | Google Gemini 2.0 Flash (Vertex AI) |
+| LLM | Google Gemini 2.5 pro (Vertex AI) |
 | Backend | FastAPI (Python 3.11) |
 | Database | Google Cloud Firestore |
 | Frontend | HTML/CSS/JS served via Nginx |
