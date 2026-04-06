@@ -4,6 +4,8 @@ A multi-agent AI system built on **Google Cloud** that helps users manage tasks,
 
 **Powered by Google Gemini 2.0 Flash via Vertex AI**
 ## Architecture
+
+
 User → Frontend (Cloud Run) → FastAPI Backend (Cloud Run) → Orchestrator Agent
 ↓
 ┌──────────────┼──────────────┐
@@ -13,6 +15,7 @@ Calendar Agent Task Agent Notes Agent
 Calendar Tools Task Tools Notes Tools
 ↓ ↓ ↓
 └──────── Firestore ──────────┘
+
 
 ## Tech Stack
 
