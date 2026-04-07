@@ -95,6 +95,7 @@ gcloud run deploy mapa-api --image=gcr.io/YOUR_PROJECT_ID/mapa-api:latest --regi
 cd frontend
 gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/mapa-frontend:latest
 gcloud run deploy mapa-frontend --image=gcr.io/YOUR_PROJECT_ID/mapa-frontend:latest --region=us-central1 --allow-unauthenticated
+
 API Endpoints
 Method	Endpoint	Description
 POST	/chat	AI chat — natural language
@@ -104,5 +105,3 @@ POST/GET/PATCH/DELETE	/tasks	Task CRUD
 POST/GET/PATCH/DELETE	/events	Event CRUD
 POST/GET/PATCH/DELETE	/notes	Note CRUD
 POST/GET	/workflows	Workflow execution
-License
-MIT
