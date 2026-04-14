@@ -36,30 +36,8 @@ The architecture of the Multi-Agent System is designed to facilitate efficient c
 
 ## Project Structure
 
-mapa/
-├── agents/
-│ ├── base_agent.py # Base agent with Gemini tool-calling loop
-│ ├── orchestrator.py # Primary orchestrator — routes to sub-agents
-│ └── sub_agents.py # Calendar, Task, Notes sub-agents
-├── api/
-│ └── main.py # FastAPI app with all endpoints
-├── config/
-│ └── settings.py # Configuration management
-├── db/
-│ └── firestore_client.py # Firestore CRUD operations
-├── frontend/
-│ ├── Dockerfile # Nginx container for frontend
-│ ├── index.html # Chat UI
-│ └── nginx.conf # Nginx configuration
-├── tools/
-│ └── mcp_tools.py # MCP tool definitions & execution engine
-├── tests/
-│ └── test_api.py # API tests
-├── .env.example # Environment template
-├── .gitignore # Git ignore rules
-├── Dockerfile # Backend container
-├── requirements.txt # Python dependencies
-└── README.md # This file
+<img width="1440" height="1524" alt="image" src="https://github.com/user-attachments/assets/6bb16a21-e06e-4bf8-8f13-37554f40de7b" />
+
 
 ## Quick Start
 
@@ -101,7 +79,7 @@ gcloud run deploy mapa-frontend --image=gcr.io/YOUR_PROJECT_ID/mapa-frontend:lat
 ```
 
 ```bash
-API Endpoints
+# API Endpoints
 Method	Endpoint	Description
 POST	/chat	AI chat — natural language
 POST	/chat/reset	Reset conversation
